@@ -12,8 +12,11 @@ section#tittle{
 
 section#img{
 	width: 99.9vw;
-	height: 65vh;
+	height: auto;
 	background: linear-gradient(30deg, #D6EAF8, #FADBD8, #D6EAF8, #FADBD8);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 footer{
@@ -40,4 +43,39 @@ h1{
   	text-align: center;
   	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+article{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 0.5em;
+	padding-top: 1.8em;
+	padding-bottom: 1.8em;
+	width: 25%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	transform: rotate(-4deg);
+}
+
+article:hover{
+	cursor: pointer;
+	transform: rotate(0deg);
+	transform: scale(1.2);
+	transition: 1.4s;
+	transform: translateX(50px);
+}
+
+article#uno{
+	background-color: #AED6F1;
+	margin-right: 40px;
+}
+
+article#dos{
+	background-color: #F9E79F;
+}
+
+article#tres{
+	background-color: #D2B4DE;
+	margin-left: 40px;
 }
