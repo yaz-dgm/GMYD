@@ -3,3 +3,41 @@ body *{
 	margin: 0;
 	padding: 0;
 }
+
+section#tittle{
+	background: linear-gradient(30deg, #FADBD8,#D6EAF8 , #FADBD8, #D6EAF8);
+	width: 99.9vw;
+	height: auto;
+}
+
+section#img{
+	width: 99.9vw;
+	height: 65vh;
+	background: linear-gradient(30deg, #D6EAF8, #FADBD8, #D6EAF8, #FADBD8);
+}
+
+footer{
+	font-family: "Arial Rounded MT Bold", sans-serif;
+	font-size: 1.5em;
+	color: #2471A3;
+	font-weight: bold;
+	text-align: center;
+	width: 99.9vw;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(30deg, #FADBD8,#D6EAF8 , #FADBD8, #D6EAF8);
+}
+
+h1{
+	font-family: "Ar Christy", sans-serif;
+  	text-transform: uppercase;
+  	display: block;
+  	font-size: 4em;
+  	color: #2471A3;
+  	text-shadow: 0 8px 5px #5499C7;
+  	font-weight: bold;
+  	text-align: center;
+  	padding-top: 15px;
+	padding-bottom: 15px;
+}
